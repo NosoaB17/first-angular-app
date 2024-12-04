@@ -1,0 +1,12 @@
+.todos {
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
